@@ -1,0 +1,27 @@
+name: temamc
+type: theme
+description: 'Tema de la pagina movie cloud'
+core: 8.x
+core_version_requirement: ^8 || ^9
+base theme: classy
+
+ckeditor_stylesheets:
+  - css/style.css
+
+libraries:
+  - bootstrap4/bootstrap4-js-latest
+  - bootstrap4/global-styling
+
+stylesheets-remove:
+  - '@classy/css/components/tabs.css'
+
+regions:
+  header: Header
+  nav_branding: 'Navigation branding region'
+  nav_main: 'Main navigation region'
+  nav_additional: 'Additional navigation region (eg search form, social icons, etc)'
+  breadcrumb: Breadcrumbs
+  content: 'Main content'
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: Footer

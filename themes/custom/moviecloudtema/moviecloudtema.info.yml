@@ -1,0 +1,9 @@
+name: moviecloudtema
+type: theme
+core_version_requirement: ^8 || ^9
+description: Mi tema de la pagina movie cloud
+package: Custom
+base theme: bootstrap4
+libraries:
+  - moviecloudtema/global-styling
+  - moviecloudtema/global-scripts
