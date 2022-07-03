@@ -12,7 +12,14 @@
         "composer/installers": "^1.9",
         "drupal/core": "self.version",
         "drupal/core-project-message": "self.version",
-        "drupal/core-vendor-hardening": "self.version"
+        "drupal/core-vendor-hardening": "self.version",
+        "drush/drush": "^10.6",
+        "drupal/admin_toolbar": "3.1",
+        "drupal/module_filter": "3.2",
+        "drupal/quicklink": "2.0",
+        "drupal/bootstrap4": "2.1",
+        "drupal/bootstrap_layout_builder": "2.0",
+        "drupal/layout_builder_blocks": "1.0"
     },
     "require-dev": {
         "behat/mink": "^1.8",
@@ -128,5 +135,13 @@
             "type": "composer",
             "url": "https://packages.drupal.org/8"
         }
-    ]
+    ],
+    "drupal-scaffold": {
+        "locations": {
+            "web-root": "."
+        },
+        "file-mapping": {
+            "[web-root]/sites/development.services.yml": false
+        }
+    }
 }
