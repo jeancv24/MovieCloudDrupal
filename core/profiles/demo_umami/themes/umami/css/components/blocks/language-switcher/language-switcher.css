@@ -20,11 +20,16 @@
   text-decoration: none;
   color: inherit;
   background-color: inherit;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1em;
+  
 }
 .language-link:hover,
 .language-link:focus {
-  text-decoration: underline;
+  color: #fff;
+  font-style: normal;
 }
 .language-link.is-active {
   font-weight: 700;
+  color: rgb(37, 154, 187);
 }

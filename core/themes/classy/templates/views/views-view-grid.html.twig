@@ -56,7 +56,7 @@
     {% for row in items %}
       <div{{ row.attributes.addClass(row_classes, options.row_class_default ? 'row-' ~ loop.index) }}>
         {% for column in row.content %}
-          <div{{ column.attributes.addClass(col_classes, options.col_class_default ? 'col-' ~ loop.index) }}>
+          <div{{ column.attributes.addClass(col_classes, options.col_class_default ? 'col-4') }}>
             {{- column.content -}}
           </div>
         {% endfor %}
@@ -64,7 +64,7 @@
     {% endfor %}
   {% else %}
     {% for column in items %}
-      <div{{ column.attributes.addClass(col_classes, options.col_class_default ? 'col-' ~ loop.index) }}>
+      <div{{ column.attributes.addClass(col_classes, options.col_class_default ? 'col-4') }}>
         {% for row in column.content %}
           <div{{ row.attributes.addClass(row_classes, options.row_class_default ? 'row-' ~ loop.index) }}>
             {{- row.content -}}

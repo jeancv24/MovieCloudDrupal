@@ -344,6 +344,7 @@ summary {
 
 template {
   display: none;
+  
 }
 
 [hidden] {
@@ -362,7 +363,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: 2rem;
+  font-size: 1rem !important;
 }
 
 h3, .h3 {
