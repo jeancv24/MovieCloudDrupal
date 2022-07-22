@@ -1,0 +1,18 @@
+uuid: dda760b2-23be-4311-a767-6123d1af20f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.movie_category
+id: taxonomy_term.movie_category.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: movie_category
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

@@ -1,0 +1,8 @@
+uuid: d0309ad7-8228-4a30-90ef-1b7176f057e1
+langcode: en
+status: true
+dependencies: {  }
+name: movie_category
+vid: movie_category
+description: 'la categoría de la película'
+weight: 0

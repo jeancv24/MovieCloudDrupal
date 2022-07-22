@@ -1,0 +1,20 @@
+uuid: 45ea1c71-459a-47aa-bcc7-645f2d69fce4
+langcode: en
+status: true
+dependencies:
+  module:
+    - rand_puppy
+  theme:
+    - bootstrap4
+id: randompuppyblock
+theme: bootstrap4
+region: footer
+weight: 0
+provider: null
+plugin: random_puppy_block
+settings:
+  id: random_puppy_block
+  label: 'Random Puppy block'
+  label_display: '0'
+  provider: rand_puppy
+visibility: {  }

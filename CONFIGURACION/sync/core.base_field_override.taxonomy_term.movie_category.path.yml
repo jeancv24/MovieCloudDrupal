@@ -1,0 +1,20 @@
+uuid: 1708ef98-d4ec-4bdd-a814-c1222d01bee9
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.movie_category
+  module:
+    - path
+id: taxonomy_term.movie_category.path
+field_name: path
+entity_type: taxonomy_term
+bundle: movie_category
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

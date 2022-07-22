@@ -1,0 +1,8 @@
+uuid: 7c7b6a14-76be-468e-b674-613ecefa60d8
+langcode: en
+status: true
+dependencies: {  }
+name: palabras_clave
+vid: palabras_clave
+description: 'palabras clave de la pelicula'
+weight: 0

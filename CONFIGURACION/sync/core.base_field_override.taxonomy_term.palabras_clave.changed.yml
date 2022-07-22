@@ -1,0 +1,18 @@
+uuid: 9b6109d6-1251-4a70-b109-d7bd2e593a19
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.palabras_clave
+id: taxonomy_term.palabras_clave.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: palabras_clave
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

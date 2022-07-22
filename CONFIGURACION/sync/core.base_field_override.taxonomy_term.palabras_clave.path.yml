@@ -1,0 +1,20 @@
+uuid: b8b579d3-6159-49b5-80ab-4f73ba1bff16
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.palabras_clave
+  module:
+    - path
+id: taxonomy_term.palabras_clave.path
+field_name: path
+entity_type: taxonomy_term
+bundle: palabras_clave
+label: 'URL alias'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

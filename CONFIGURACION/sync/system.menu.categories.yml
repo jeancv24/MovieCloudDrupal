@@ -1,0 +1,8 @@
+uuid: 2b7c2da7-6485-486c-a8f2-a10853e42309
+langcode: es
+status: true
+dependencies: {  }
+id: categories
+label: categories
+description: 'Acá se muestran las categorías'
+locked: false

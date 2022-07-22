@@ -1,0 +1,20 @@
+uuid: c32397e8-587c-4590-b7d8-97c236dd1779
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.movie_category
+  module:
+    - text
+id: taxonomy_term.movie_category.description
+field_name: description
+entity_type: taxonomy_term
+bundle: movie_category
+label: Description
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

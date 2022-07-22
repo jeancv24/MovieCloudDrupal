@@ -1,0 +1,18 @@
+uuid: 34c1e07e-0520-4ddd-b4b3-e315d2df0d3b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.pelicula
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.pelicula
+target_entity_type_id: node
+target_bundle: pelicula
+default_langcode: site_default
+language_alterable: true

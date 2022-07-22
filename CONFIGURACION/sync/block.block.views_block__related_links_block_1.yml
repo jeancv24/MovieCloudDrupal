@@ -1,0 +1,34 @@
+uuid: 37e19188-3a41-412e-bd99-c79dca0cb2a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.related_links
+  module:
+    - node
+    - views
+  theme:
+    - bootstrap4
+id: views_block__related_links_block_1
+theme: bootstrap4
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:related_links-block_1'
+settings:
+  id: 'views_block:related_links-block_1'
+  label: 'Related links'
+  label_display: visible
+  provider: views
+  context_mapping:
+    nid: '@node.node_route_context:node'
+  views_label: 'Related links'
+  items_per_page: '1'
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      pelicula: pelicula

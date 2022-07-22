@@ -1,0 +1,7 @@
+rand_puppy.content:
+  path: '/rand-puppy'
+  defaults:
+    _controller: '\Drupal\rand_puppy\Controller\RandomPuppyController::getRandomPuppy'
+    _title: 'Random Puppy'
+  requirements:
+    _permission: 'puppy permiso'

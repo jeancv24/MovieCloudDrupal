@@ -1,0 +1,29 @@
+uuid: 935fe61a-42c5-4011-b1db-eeb67fb3bf56
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_category
+    - node.type.pelicula
+    - taxonomy.vocabulary.movie_category
+id: node.pelicula.field_category
+field_name: field_category
+entity_type: node
+bundle: pelicula
+label: Category
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      movie_category: movie_category
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: tags
+field_type: entity_reference

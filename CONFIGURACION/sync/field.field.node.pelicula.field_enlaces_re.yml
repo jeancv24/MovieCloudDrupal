@@ -1,0 +1,23 @@
+uuid: 814da8e3-8b3b-4072-93ba-0a285f93e882
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_enlaces_re
+    - node.type.pelicula
+  module:
+    - link
+id: node.pelicula.field_enlaces_re
+field_name: field_enlaces_re
+entity_type: node
+bundle: pelicula
+label: 'Related links'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

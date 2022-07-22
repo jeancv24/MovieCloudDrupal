@@ -1,0 +1,23 @@
+uuid: 1050e0e9-70fa-4ec3-afa1-08ac6c6343ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rating
+    - node.type.pelicula
+id: node.pelicula.field_rating
+field_name: field_rating
+entity_type: node
+bundle: pelicula
+label: Rating
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

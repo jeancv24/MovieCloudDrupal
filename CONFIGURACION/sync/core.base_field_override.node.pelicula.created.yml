@@ -1,0 +1,18 @@
+uuid: cb3fbe96-de8f-403b-9bd5-68959cd7c5f9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.pelicula
+id: node.pelicula.created
+field_name: created
+entity_type: node
+bundle: pelicula
+label: 'Authored on'
+description: 'The time that the node was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

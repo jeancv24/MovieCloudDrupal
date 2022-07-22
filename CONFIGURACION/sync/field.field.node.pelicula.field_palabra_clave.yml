@@ -1,0 +1,29 @@
+uuid: 3196986d-aa96-4c03-9660-d0e0d08d037d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_palabra_clave
+    - node.type.pelicula
+    - taxonomy.vocabulary.palabras_clave
+id: node.pelicula.field_palabra_clave
+field_name: field_palabra_clave
+entity_type: node
+bundle: pelicula
+label: 'Key word'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      palabras_clave: palabras_clave
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

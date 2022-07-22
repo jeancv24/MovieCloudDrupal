@@ -1,0 +1,22 @@
+uuid: 0f9ba74b-9c93-49cc-9330-a4ef24b906c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.movie_category
+id: taxonomy_term.movie_category.status
+field_name: status
+entity_type: taxonomy_term
+bundle: movie_category
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

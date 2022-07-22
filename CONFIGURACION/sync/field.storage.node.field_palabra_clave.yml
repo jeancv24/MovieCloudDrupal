@@ -1,0 +1,20 @@
+uuid: c9a17c99-fac1-40d6-9d55-1b1b307fcb90
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_palabra_clave
+field_name: field_palabra_clave
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

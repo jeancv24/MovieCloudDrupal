@@ -1,0 +1,29 @@
+uuid: 46346290-c011-4a9b-b5e0-5bbc20e7b03a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.ultimas_de_categorias_documental
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap4
+id: views_block__ultimas_de_categorias_documental_block_1
+theme: bootstrap4
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:ultimas_de_categorias_documental-block_1'
+settings:
+  id: 'views_block:ultimas_de_categorias_documental-block_1'
+  label: 'Ultimas de categorías'
+  label_display: visible
+  provider: views
+  views_label: 'Ultimas de categorías'
+  items_per_page: '3'
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /documental

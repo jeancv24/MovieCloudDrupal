@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 8d54db43-d650-4f91-9e89-816606a6e875
+name: 'Movie Cloud'
+mail: drupal@drupal.com
+slogan: 'Your movie network'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en

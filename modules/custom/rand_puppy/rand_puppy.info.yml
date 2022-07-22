@@ -1,0 +1,6 @@
+name: Random Puppy
+type: module
+description: This module generates a random puppy
+package: Random puppy
+core_version_requirement: ^8 || ^9
+version: 1.0.0

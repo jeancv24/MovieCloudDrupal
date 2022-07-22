@@ -1,0 +1,29 @@
+uuid: fea135fc-5554-4d6e-b272-0372bead824a
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.ultimas_de_categorias
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap4
+id: views_block__ultimas_de_categorias_block_1
+theme: bootstrap4
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:ultimas_de_categorias-block_1'
+settings:
+  id: 'views_block:ultimas_de_categorias-block_1'
+  label: 'Ultimas de categorías'
+  label_display: '0'
+  provider: views
+  views_label: 'Ultimas de categorías'
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /accion

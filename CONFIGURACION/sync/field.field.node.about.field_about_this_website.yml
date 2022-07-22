@@ -1,0 +1,19 @@
+uuid: 049e4871-96a3-46ac-b7fa-bc900d72ae14
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_about_this_website
+    - node.type.about
+id: node.about.field_about_this_website
+field_name: field_about_this_website
+entity_type: node
+bundle: about
+label: 'About this website'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

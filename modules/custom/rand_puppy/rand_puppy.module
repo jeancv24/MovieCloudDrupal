@@ -1,0 +1,33 @@
+<?php
+
+/**
+ * @file
+ * Module help file for the Random Puppy module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+
+function rand_puppy_help($route_name, RouteMatchInterface $route_match)
+{
+  switch ($route_name) {
+    case 'help.page.rand_puppy':
+      return t('
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h2>Random Puppy</h2>
+              <p>
+                This module is used to generate a random puppy by a random resolution.
+              </p>
+              <p>
+                <strong>Random Puppy</strong>
+              </p>
+          </div>
+        </div>
+      ');
+  }
+}

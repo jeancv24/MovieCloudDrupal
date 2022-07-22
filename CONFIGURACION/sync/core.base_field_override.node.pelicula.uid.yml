@@ -1,0 +1,20 @@
+uuid: c46109dd-ecc8-46b0-95cc-bf984eb9d06f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.pelicula
+id: node.pelicula.uid
+field_name: uid
+entity_type: node
+bundle: pelicula
+label: 'Authored by'
+description: 'The username of the content author.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference
